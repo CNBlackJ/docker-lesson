@@ -1,6 +1,6 @@
 apps:
-  - script   : index.js
-    name     : 'node'
+  - script   : src/index.js
+    name     : 'docker-lesson'
     instances: 3
     exec_mode: cluster
     env_production:
